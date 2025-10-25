@@ -26,8 +26,8 @@ ann_diabete_api/
 L'image Docker est automatiquement construite et poussée sur Docker Hub via GitHub Actions à chaque push sur la branche `main`.
 
 ```bash
-docker pull kalsoumdS/ann-diabetes-api:latest
-docker run -p 5000:5000 kalsoumdS/ann-diabetes-api:latest
+docker pull oumou08/ann-diabetes-api:latest
+docker run -p 5000:5000 oumou08/ann-diabetes-api:latest
 ```
 
 ### Option 2: Build local
