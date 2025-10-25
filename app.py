@@ -4,7 +4,7 @@ import numpy as np, os, json
 
 app = Flask(__name__)
 
-MODEL_PATH = os.path.join("model", "model.h5")
+MODEL_PATH = os.path.join("model", "model.keras")
 SCALER_PATH = os.path.join("model", "scaler_meta.json")
 
 # Charger le modèle et le scaler
